@@ -182,7 +182,6 @@ input:user-invalid, select:user-invalid {
     background: #fff4f5;
 }
 
-/* grupos de radios y checkboxes */
 fieldset > div > div {
     display: flex;
     flex-wrap: wrap;
@@ -213,7 +212,7 @@ input[type="checkbox"] {
     margin-bottom: 18px;
 }
 
-/* botones */
+
 .botones {
     display: flex;
     gap: 12px;
@@ -242,7 +241,7 @@ button[type="reset"]:hover {
     background: #4f5861;
 }
 
-/* ---------- Footer ---------- */
+
 footer {
     background-color: #e2e6ea;
     display: flex;
@@ -269,12 +268,4 @@ footer p {
     color: #68727d;
     font-size: 12px;
     overflow-wrap: anywhere;
-}
-
-
-@media (max-width: 700px) {
-    #banner, #banner img { height: 220px; }
-    .grid { grid-template-columns: 1fr; }
-    footer { flex-wrap: wrap; }
-    footer div { flex: 1 1 40%; }
 }
